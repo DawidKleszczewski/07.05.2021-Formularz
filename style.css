@@ -1,0 +1,39 @@
+.inp{
+    text-align: center;
+    height: 30px;
+}
+.t-a-c{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.inp2{
+    height: 100px;
+    width: 350px;
+}
+.btn{
+    text-align: center;
+    text-decoration: none;
+    width: 358px;
+    height: 30px;
+}
+.hdn1{
+    visibility: hidden;
+    margin: 0;
+}
+.hdn2{
+    visibility: hidden;
+    margin: 0;
+}
+.hdn3{
+    visibility: hidden;
+    margin: 0;
+}
+.hdn4{
+    visibility: hidden;
+    margin: 0;
+}
+.hdn5{
+    visibility: hidden;
+    margin: 0;
+}

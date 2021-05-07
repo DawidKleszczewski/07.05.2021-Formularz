@@ -4,17 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <input type="text" id="name" placeholder="Imie">
-        <input type="text" id="sname" placeholder="Nazwisko">
-        <input type="email" id="email" placeholder="Email">
-        <input type="number" id="tel" placeholder="Tel">    
-        <input type="text" id="msg" placeholder="Wiadmość">
-        <button onclick="send()">WYŚLIJ</button>
+    <div class="t-a-c">
+        <input type="text" id="name" placeholder="Imie" class="inp">
+        <input type="text" id="sname" placeholder="Nazwisko" class="inp">
     </div>
+    <div class="t-a-c">
+        <p class="hdn1" id="err1">Imie błędne</p>
+        <p class="hdn2" id="err2">Nazwisko błędne</p>
+    </div>
+    <div class="t-a-c">
+        <input type="email" id="email" placeholder="Email" class="inp">
+        <input type="tel" id="tel" placeholder="Tel" class="inp">  
+    </div>
+    <div class="t-a-c">
+        <p class="hdn3" id="err3">Email błędne</p>
+        <p class="hdn4" id="err4">Numer błędny</p>
+    </div>
+    <div class="t-a-c">
+        <input type="text" id="msg" placeholder="Wiadmość" class="inp2">
+        <p class="hdn5" id="err5">Wiadmość błedna</p>
+    </div>
+    <div class="d-grid gap-2 t-a-c">
+        <button class="btn btn-primary" type="button" onclick="send()">WYŚLIJ</button>
+    </div>
+
+
     <script src="./main.js"></script>
 </body>
 </html>
